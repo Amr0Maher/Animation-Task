@@ -1,0 +1,309 @@
+/* Global reset for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for each square */
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+    width: 50px;
+    /* Set width for squares */
+    height: 50px;
+    /* Set height for squares */
+    position: absolute;
+    /* Positioning method */
+}
+
+/* Animation for .one (red square) */
+.one {
+    background-color: red;
+    /* Color for square */
+    animation-name: one;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 0px;
+    /* Starting position from the top */
+}
+
+@keyframes one {
+    0% {
+        left: 0px;
+        /* Start from the left edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        left: 1430px;
+        /* Move to the right edge of the screen */
+    }
+}
+
+/* Animation for .two (red square) */
+.two {
+    background-color: red;
+    /* Color for square */
+    animation-name: two;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-delay: 2s;
+    /* Delay start by 2 seconds */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 100px;
+    /* Starting position from the top */
+    right: 0px;
+    /* Starting from the right edge */
+}
+
+@keyframes two {
+    0% {
+        right: 0px;
+        /* Start from the right edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        right: 1430px;
+        /* Move to the left edge of the screen */
+    }
+}
+
+/* Animation for .three (green square) */
+.three {
+    background-color: green;
+    /* Color for square */
+    animation-name: three;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-delay: 4s;
+    /* Delay start by 4 seconds */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 200px;
+    /* Starting position from the top */
+}
+
+@keyframes three {
+    0% {
+        left: 0px;
+        /* Start from the left edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        left: 1430px;
+        /* Move to the right edge of the screen */
+    }
+}
+
+/* Animation for .four (green square) */
+.four {
+    background-color: green;
+    /* Color for square */
+    animation-name: four;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-delay: 6s;
+    /* Delay start by 6 seconds */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 300px;
+    /* Starting position from the top */
+    right: 0px;
+    /* Starting from the right edge */
+}
+
+@keyframes four {
+    0% {
+        right: 0px;
+        /* Start from the right edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        right: 1430px;
+        /* Move to the left edge of the screen */
+    }
+}
+
+/* Animation for .five (blue square) */
+.five {
+    background-color: blue;
+    /* Color for square */
+    animation-name: five;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-delay: 8s;
+    /* Delay start by 8 seconds */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 400px;
+    /* Starting position from the top */
+}
+
+@keyframes five {
+    0% {
+        left: 0px;
+        /* Start from the left edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        left: 1430px;
+        /* Move to the right edge of the screen */
+    }
+}
+
+/* Animation for .six (blue square) */
+.six {
+    background-color: blue;
+    /* Color for square */
+    animation-name: six;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-delay: 10s;
+    /* Delay start by 10 seconds */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 500px;
+    /* Starting position from the top */
+    right: 0px;
+    /* Starting from the right edge */
+}
+
+@keyframes six {
+    0% {
+        right: 0px;
+        /* Start from the right edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        right: 1430px;
+        /* Move to the left edge of the screen */
+    }
+}
+
+/* Animation for .seven (yellow square) */
+.seven {
+    background-color: yellow;
+    /* Color for square */
+    animation-name: seven;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-delay: 12s;
+    /* Delay start by 12 seconds */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 600px;
+    /* Starting position from the top */
+}
+
+@keyframes seven {
+    0% {
+        left: 0px;
+        /* Start from the left edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        left: 1430px;
+        /* Move to the right edge of the screen */
+    }
+}
+
+/* Animation for .eight (yellow square) */
+.eight {
+    background-color: yellow;
+    /* Color for square */
+    animation-name: eight;
+    /* Name of the animation */
+    animation-duration: 2s;
+    /* Duration of animation */
+    animation-iteration-count: 1;
+    /* Number of times animation runs */
+    animation-delay: 14s;
+    /* Delay start by 14 seconds */
+    animation-fill-mode: forwards;
+    /* Keep the last keyframe on finish */
+    top: 700px;
+    /* Starting position from the top */
+    right: 0px;
+    /* Starting from the right edge */
+}
+
+@keyframes eight {
+    0% {
+        right: 0px;
+        /* Start from the right edge of the screen */
+    }
+
+    50% {
+        transform: rotate(360deg);
+        /* Rotate at midpoint */
+    }
+
+    100% {
+        right: 1430px;
+        /* Move to the left edge of the screen */
+    }
+}
