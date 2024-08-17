@@ -39,4 +39,3 @@ CSS: For its powerful animation and styling capabilities.
 GitHub: For providing a platform to share and collaborate on this project.
 Thank you for checking out the Animated Colored Boxes! We hope you find the animations as delightful and engaging as we do. If you have any questions, feedback, or suggestions, feel free to reach out!
 
-هذا النص يبرز ميزات المشروع بطريقة جذابة ويوفر تفاصيل واضحة حول كيفية البدء واستكشاف المشروع. إذا كنت بحاجة إلى أي تعديلات إضافية أو تفاصيل أخرى، لا تتردد في إخباري!
