@@ -4,6 +4,10 @@
 
 Welcome to the **Animated Colored Boxes** project! Dive into a vibrant display of CSS animations featuring eight dynamic boxes. Each box performs a mesmerizing 360-degree rotation while gliding across the screen. With staggered animation start times, this project creates a captivating and smooth visual sequence. Experience a burst of colors and a dynamic arrangement that enhances the overall aesthetic appeal.
 
+## 🖼️ Preview
+
+![Animated Colored Boxes](https://github.com/Amrr-Maherr/Css-animation-task/blob/master/readme%20images/Screenshot_21-8-2024_03632_amrr-maherr.github.io.jpeg?raw=true)
+
 ## 🎨 Features
 
 - **360-Degree Rotation:** Watch as each box completes a full rotation during its animation, adding a playful touch.
@@ -27,6 +31,7 @@ To view and explore the **Animated Colored Boxes** locally, follow these simple 
 Open the Project
 
 Open index.html in your preferred web browser to see the animated colored boxes in action.
+
 🌐 Explore the Project
 Interactive Animation: Observe the boxes as they rotate and move in a staggered sequence.
 Vibrant Colors: Experience the rich and engaging color scheme that highlights each box.
@@ -38,4 +43,3 @@ This project is licensed under the MIT License. For detailed information, please
 CSS: For its powerful animation and styling capabilities.
 GitHub: For providing a platform to share and collaborate on this project.
 Thank you for checking out the Animated Colored Boxes! We hope you find the animations as delightful and engaging as we do. If you have any questions, feedback, or suggestions, feel free to reach out!
-
